@@ -3,21 +3,25 @@
     box-sizing: border-box;}
     
 body{
-    height: 100vh;
+    height: 140vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: teal;
 }
 #create-account-form{
     width: 400px;
     border: 2px solid blue;
+    border-radius: 20px;
+    background-color: slategray;
     padding: 20px;
-    height: 600px;
+    height: 550px;
     text-transform: uppercase;
 }
 .title{
     text-align: center;
     margin-bottom: 20px;
+    color: burlywood;
 }
 .input-group{
   position: relative;
@@ -64,7 +68,10 @@ color: green;}
 
   .btn{
     display: block;
-    width: 100%;
-    padding: 10px 0;
-    font-size: 20px;
+    width: 40%;
+    padding: 6px 0;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: violet;
   }
