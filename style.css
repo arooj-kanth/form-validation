@@ -1,0 +1,70 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#create-account-form{
+    width: 400px;
+    border: 2px solid blue;
+    padding: 20px;
+    height: 600px;
+    text-transform: uppercase;
+}
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-group{
+  position: relative;
+  margin: 20px 0;
+}
+.input-group label{
+    font-size: 20px;
+}
+.input-group input{
+    display: block;
+    width: 90%;
+    padding: 10px;   
+}
+.success input{
+    border: 4px solid greenyellow;
+}
+.error input{
+    border: 4px solid red;
+}
+.input-group i{
+    position: absolute;
+    right: 0;
+    bottom: 34%;
+    font-size: 25px;
+    visibility: hidden;
+}
+.success .fa-check-circle{
+    visibility: visible;
+color: green;}
+.error .fa-exclamation-circle{
+    color: red;
+    visibility: visible;
+  }
+  .input-group p {
+    color: red;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+    visibility: hidden;
+  }
+  .error p{
+    visibility: visible;
+  }
+
+  .btn{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+  }
